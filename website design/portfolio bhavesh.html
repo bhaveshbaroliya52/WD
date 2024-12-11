@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+
+
+        }
+
+        video {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        .portfolio-container {
+            min-height: 100vh;
+            width: 100%;
+            display: flex;
+        }
+
+        .navlist li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navlist {
+            display: flex;
+            gap: 3rem;
+            height: 15vh;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+        }
+
+        .navlist li {
+            text-transform: uppercase;
+            list-style: none;
+        }
+
+        .left,
+        .right {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+
+        }
+
+        .left {
+            background: #262525;
+            width: 70%;
+            padding-left: 3rem;
+
+        }
+
+        .right {
+            background: #3877ff;
+            width: 30%;
+        }
+
+        .icon .fa-brands {
+            font-size: 25px;
+            color: white;
+            cursor: pointer;
+
+
+        }
+
+        .icon {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .icon .fa-brands:hover {
+            cursor: pointer;
+            background: linear-gradient(white, aqua);
+            -webkit-background-clip: text;
+
+            -webkit-text-fill-color: transparent;
+        }
+
+        .contect {
+            margin-left: 40px;
+        }
+
+        .contect h2 {
+            font-size: 1.5rem;
+
+        }
+
+        .contect h1 {
+            font-size: 50px;
+            color: #2eacf5;
+            margin-top: 10px;
+
+        }
+
+        .intro span {
+            color: #2eacf5;
+
+        }
+
+        .intro {
+            color: white;
+        }
+
+        .detail {
+            color: white;
+            font-size: 24px;
+            max-width: 80%;
+            margin: 25px 0 50px 0;
+            line-height: 30px;
+
+        }
+
+        .btn button {
+            border: 1px solid #2eacf5;
+            font-size: 24px;
+            padding: 15px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 400ms
+        }
+
+        button:nth-child(1) {
+
+            background-color: #2eacf5;
+        }
+
+        button:nth-child(2) {
+            background-color: transparent;
+            color: #2eacf5;
+            margin-left: 40px;
+        }
+
+        button:nth-child(1):hover {
+            color: #2eacf5;
+
+            background-color: transparent;
+
+        }
+
+        button:nth-child(2):hover {
+            color: black;
+            background-color: #2eacf5;
+        }
+
+        .design .circle {
+            /* aspect-ratio: 1; */
+            position: absolute;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .circle:nth-child(1){
+            background-color: red;
+            width: 500px;
+            height: 500px;
+
+        }
+
+        .circle:nth-child(2){
+            background-color: white;
+            width: 250px;
+            height: 250px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="portfolio-container">
+        <ul class="navlist">
+            <li><a href="#">home</a></li>
+            <li><a href="#">work</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">project</a></li>
+            <li><a href="#">service</a></li>
+        </ul>
+  
+        <div class="left">
+            <div class="icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="contect">
+                <p class="intro"> HI I'AM <span>BHAVESH BAROLIYA</span></p>
+                <h1>website designer</h1>
+                <p class="detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas doloribus alias,
+                    molestias, quasi nisi
+                    reiciendis, atque praesentium quisquam
+                    laboriosam laudantium soluta repellat!</p>
+                <div class="btn">
+                    <button>hire me</button>
+                    <button>view project</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="right"></div>
+
+        <div class="design">
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+    </div>
+    <!-- </div> -->
+</body>
+
+</html>
