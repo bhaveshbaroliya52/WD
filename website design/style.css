@@ -1,7 +1,7 @@
  
  :root{
 --pink:#e84393;
---secondry:rgb(83, 83, 83);
+--secondry:rgb(56, 56, 56);
 
 
  }
@@ -108,7 +108,7 @@ color: black;
  
 main h2{
    display: flex;
-margin-top: 30px;
+margin-top: 40px;
  background-color: rgba(255, 192, 203, 0.541);
  height: 50px;
  font-size: 28px;
@@ -118,6 +118,10 @@ margin-top: 30px;
  margin-right: 8%;
  
 }
+main{
+margin-bottom: 50%;
+
+}
 main h2 span{
 color: var(--pink);
 margin-right: 16px;
@@ -125,9 +129,144 @@ margin-right: 16px;
 }
 .flowers-sallers{
 margin-top: 30px;
+display: flex;
 
 }
-/* .flowers-sallers video{
+.flowers-sallers .sallers{
+margin-left: 50px;
 
-   margin-left: 30px; 
-} */
+}
+.flowers-sallers .sallers p{
+margin-top: 22px;
+font-size: 20px;
+color: var(--secondry);
+
+}
+
+.flowers-sallers .sallers .btn{
+display: flex;
+justify-content: center;
+align-items: center;
+   height: 35px;
+width: 150px;
+background-color: black;
+font-size: 20px;
+color: white;
+text-align: center;
+margin-top: 30px;
+margin-left: 40px;
+border-radius: 20px;
+transition: all 300ms;
+}
+
+.flowers-sallers .sallers .btn:hover{
+background-color: rgb(255, 0, 128);
+color: white;
+
+}
+.shopping{
+display: flex;
+justify-content: space-evenly ;
+margin-top: 120px;
+height: 160px;
+background-color: rgba(185, 183, 183, 0.397);
+align-items:center ;
+}
+ .shopping .orders{
+display: flex;
+background-color: #fff;
+padding: 20px;
+border-radius: 4px;
+
+ }
+ 
+ .flowers-price{
+margin-top: 50px;
+margin-left: 3%;
+margin-right: 3%;
+display: flex;
+justify-content: space-evenly;
+
+ }
+
+
+ .flowers-price-2{
+   margin-top: 50px;
+   margin-left: 3%;
+   margin-right: 3%;
+   display: flex;
+   justify-content: space-evenly;
+   
+
+
+ }
+.flowers-price .flowers-pot{
+border: 1px solid gray;
+ 
+}
+.flowers-price-2{
+margin-top: 55px;
+
+}
+.flowers-price-2 .flowers-pot{
+border: 1px solid gray;
+ 
+}
+
+ .flowers-price .flowers-pot img{
+height: 250px;
+width: 250px;
+ }
+ .flowers-price-2 .flowers-pot img{
+height: 250px;
+width: 250px;
+ }
+
+ strike{
+   margin-top: 5px;
+   margin-left: 20px ;
+
+   text-decoration: line-through;
+}
+
+.flowers-price .flowers-pot h3{
+   font-size: 26px;
+   margin-left: 40px ;
+   
+}
+.flowers-price-2 .flowers-pot h3{
+   font-size: 26px;
+   margin-left: 40px ;
+   
+}
+.flowers-price .flowers-pot h4{
+   font-size: 24px;
+   color: var(--pink);
+   margin-left: 30px ;
+ }
+.flowers-price-2 .flowers-pot h4{
+   font-size: 24px;
+   color: var(--pink);
+   margin-left: 30px ;
+ }
+
+ .flowers-price .flowers-pot .price{
+display: flex;
+
+ }
+
+ .flowers-price-2 .flowers-pot .price{
+display: flex;
+
+ }
+ 
+
+
+
+
+
+
+
+
+
+
