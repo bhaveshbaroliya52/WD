@@ -313,16 +313,18 @@ font-weight: 400;
 
 margin-top: 70px;
 margin-bottom: 50%;
-margin-left: 4%;
-
- }
- main .contact-us .form{
-height: 500px;
-max-width: 40%;
-border: 1px solid black;
+/* margin-left: 4%; */
+display: flex;
+justify-content: space-around;
+}
+main .contact-us .form{
+   height: 500px;
+   /* min-width: 20%; */
+   border: 1px solid black;
 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 border: none;
 padding-top: 15px;
+width: 40%;
  }
 
  main .contact-us .name  {
@@ -348,12 +350,72 @@ main #cars{
 }
 main .contact-us .form input{
 margin-left: 50px;
+text-align: center;
+}
+main .contact-us .form #massage{
+height: 100px;
+/* width: 50px; */
+
+}
+main .contact-us .form input:hover{
+background-color: rgba(218, 218, 218, 0.842);
+
 }
 main .contact-us .form textarea{
 
-margin-left: 50px;
+/* margin-left: 50px; */
 
 }
+main .contact-us .form button{
+   height: 26px;
+   /* width: 250px; */
+background: var(--secondry);
+/* font-size: 15px; */
+border-radius: 20px;
+margin-left: 50px;
+padding: 20px;
+/* margin-top:70px ; */
+display: flex;
+justify-content: end;
+align-items: center;
+transition: 300ms;
+}
+main .contact-us .form button a{
+   position: static;
+   
+color: white;
+   text-decoration: none;
+}
+main .contact-us .form button:hover{
+   background-color: var(--pink);
+   border: var(--secondry);
+}
+main .contact-us .save-flower img{
+height:500px;
+width: 500px;
+
+}
+main .links {
+display: flex; 
+flex-direction: row;
+margin-bottom: 10px;
+}
+
+main .links a {
+list-style: none;
+font-size: 24px;
+margin-top: 14px;
+
+}
+main .links li a{
+color: black;
+}
+main .links li a:hover{
+   color: blue;
+}
+
+
+
 
 
 
