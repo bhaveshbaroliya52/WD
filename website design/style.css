@@ -51,11 +51,10 @@ display: flex;
 gap: 30px;
 
 }
-.home{
-   
-   /* display: flex; */
-   /* align-items: center; */
+ header i:hover {
+ color: var(--pink);
 }
+ 
 
 .home .content{
    background-image: url(flower\ design.avif);
@@ -114,14 +113,11 @@ margin-top: 40px;
  font-size: 28px;
  justify-content: center;
  align-items: center;
- margin-left: 8%;
- margin-right: 8%;
+ margin-left: 6%;
+ margin-right: 6%;
  
 }
-main{
-/* margin-bottom: 50%; */
-
-}
+ 
 main h2 span{
 color: var(--pink);
 margin-right: 16px;
@@ -130,7 +126,7 @@ margin-right: 16px;
 .flowers-sallers{
 margin-top: 30px;
 display: flex;
-
+padding: 0 80px;
 }
 .flowers-sallers .sallers{
 margin-left: 50px;
@@ -176,9 +172,10 @@ align-items:center ;
 display: flex;
 background-color: #fff;
 padding: 20px;
+gap: 10px;
 border-radius: 4px;
-
  }
+ 
  
  .flowers-price{
 margin-top: 50px;
@@ -189,7 +186,6 @@ justify-content: space-evenly;
 
  }
 
-
  .flowers-price-2{
    margin-top: 50px;
    margin-left: 3%;
@@ -197,11 +193,15 @@ justify-content: space-evenly;
    display: flex;
    justify-content: space-evenly;
    
-
-
  }
 .flowers-price .flowers-pot{
-border: 1px solid gray;
+/* border: 1px solid gray; */
+background-color: white;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+padding: 10px;
+border-radius: 6px;
+padding-top: 16px;
+
  
 }
 .flowers-price-2{
@@ -209,18 +209,30 @@ margin-top: 55px;
 
 }
 .flowers-price-2 .flowers-pot{
-border: 1px solid gray;
- 
+/* border: 1px solid gray; */
+background-color: white;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+border-radius: 6px;
+padding: 10px;
+padding-top: 16px;
+
 }
 
  .flowers-price .flowers-pot img{
-height: 250px;
-width: 250px;
+height: 200px;
+width: 200px;
+border-radius: 10px;
+justify-self: center;
+display: flex;
+
  }
  .flowers-price-2 .flowers-pot img{
-height: 250px;
-width: 250px;
- }
+height: 200px;
+width: 200px;
+border-radius: 10px;
+ display: flex;
+ justify-self: center;
+}
 
  strike{
    margin-top: 5px;
@@ -230,22 +242,24 @@ width: 250px;
 }
 
 .flowers-price .flowers-pot h3{
-   font-size: 26px;
-   margin-left: 40px ;
+   font-size: 20px;
+ display: flex;
+ justify-content: center;
    
 }
 .flowers-price-2 .flowers-pot h3{
-   font-size: 26px;
-   margin-left: 40px ;
+   font-size: 20px;
+ display: flex;
+ justify-content: center;
    
 }
 .flowers-price .flowers-pot h4{
-   font-size: 24px;
+   font-size: 20px;
    color: var(--pink);
    margin-left: 30px ;
  }
 .flowers-price-2 .flowers-pot h4{
-   font-size: 24px;
+   font-size: 20px;
    color: var(--pink);
    margin-left: 30px ;
  }
@@ -312,20 +326,18 @@ font-weight: 400;
  main .contact-us{
 
 margin-top: 70px;
-margin-bottom: 50%;
-/* margin-left: 4%; */
 display: flex;
 justify-content: space-around;
 }
 main .contact-us .form{
    height: 500px;
-   /* min-width: 20%; */
    border: 1px solid black;
 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 border: none;
 padding-top: 15px;
 width: 40%;
- }
+backdrop-filter: url(https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
 
  main .contact-us .name  {
    margin-top: 35px;
@@ -395,24 +407,51 @@ height:500px;
 width: 500px;
 
 }
-main .links {
+footer{
+   background-color: rgba(236, 206, 253, 0.5);
+
+}
+footer .links {
 display: flex; 
 flex-direction: row;
 margin-bottom: 10px;
+justify-content: space-around;
+margin-top: 7%;
+padding-top: 4%;
+padding-bottom: 2%;
 }
 
-main .links a {
+footer .links a {
 list-style: none;
 font-size: 24px;
 margin-top: 14px;
 
 }
-main .links li a{
+footer  .links li a{
 color: black;
+color: var(--secondry);
 }
-main .links li a:hover{
+footer  .links ul li{
+list-style: none;
+margin-bottom: 15px;
+}
+footer  .links ul h1{
+   margin-bottom: 20px;
+}
+footer .links li a:hover{
    color: blue;
 }
+footer .links img{
+height: 50px;
+margin-right: 20px;
+
+}
+s{
+background-color: pink;
+display: flex;align-items: center;
+justify-content: center;
+}
+ 
 
 
 
