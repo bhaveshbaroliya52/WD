@@ -24,6 +24,9 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+/* display: inline-block; */
+position: fixed;
+width: 100%;
  }
  header .logo{
 font-size: 34px;
@@ -58,7 +61,7 @@ gap: 30px;
 
 .home .content{
    background-image: url(flower\ design.avif);
-   height: 566px;
+   height: 655px;
    background-repeat:no-repeat ;
 background-size: cover;
 }
@@ -67,7 +70,7 @@ background-size: cover;
 margin-left: 50px;
 display: flex;
 flex-direction: column;
-padding-top: 180px;
+padding-top: 220px;
 max-width: 45%;
 }
 .home .content .title h3{
@@ -330,13 +333,14 @@ display: flex;
 justify-content: space-around;
 }
 main .contact-us .form{
+   /* z-index:-1; */
    height: 500px;
    border: 1px solid black;
 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 border: none;
 padding-top: 15px;
 width: 40%;
-backdrop-filter: url(https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?auto=compress&cs=tinysrgb&w=600);
+/* backdrop-filter: url(https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?auto=compress&cs=tinysrgb&w=600); */
 }
 
  main .contact-us .name  {
@@ -373,11 +377,7 @@ main .contact-us .form input:hover{
 background-color: rgba(218, 218, 218, 0.842);
 
 }
-main .contact-us .form textarea{
-
-/* margin-left: 50px; */
-
-}
+ 
 main .contact-us .form button{
    height: 26px;
    /* width: 250px; */
@@ -451,6 +451,15 @@ background-color: pink;
 display: flex;align-items: center;
 justify-content: center;
 }
+@media screen and (max-width: 400px) {
+   .home .content .title {
+     margin-left: 20px; /* Adjust margin-left */
+     padding-top: 150px; /* Adjust padding-top */
+     max-width: 90%; /* Adjust max-width */
+   }
+ }
+
+ 
  
 
 
